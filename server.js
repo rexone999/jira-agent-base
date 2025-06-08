@@ -13,6 +13,6 @@ app.get('/installed', (req, res) => {
   res.sendStatus(204);
 });
 
-app.listen(port, () => {
+app.listen(port,0.0.0.0, () => {
   console.log(`Basic Jira app running on http://0.0.0.0:${port}`);
 });
