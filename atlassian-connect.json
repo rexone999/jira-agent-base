@@ -1,7 +1,7 @@
 {
   "key": "basic-jira-agent",
   "name": "PO Assist Agent (Base)",
-  "baseUrl": " https://6dbd-183-83-227-91.ngrok-free.app",
+  "baseUrl": "https://jira-agent-base.onrender.com",
   "authentication": {
     "type": "none"
   },
