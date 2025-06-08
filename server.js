@@ -14,5 +14,5 @@ app.get('/installed', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Basic Jira app running on http://localhost:${port}`);
+  console.log(`Basic Jira app running on http://0.0.0.0:${port}`);
 });
